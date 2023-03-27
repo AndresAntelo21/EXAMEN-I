@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %} Citas {% endblock %}
+{% block head %}
+{{super()}}
+{% endblock %}
+{% block body %}
+
+
+<div class="contenedor__animal">
+    
+    <div  class="caja__trasera_reganimal"> 
+
+         
+
+       
+
+            <form action="" method="POST">
+                <h1 id="titu"> Rentar   </h1>
+                <div id="registro">
+                    <h2 id="color">  Tipo de bicicleta:  </h2>
+                    <select name="accion" id = "accion">
+                        <option value="" selected="selected" hidden="hidden">Elige una opcion</option>
+                        {% for accion in lista %}
+                                <option value="{{accion}}">{{accion}} </option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div id="registro">
+                    <h2 id="color">  Tiempo:  </h2>
+                    <select name="ora" id = "ora">
+                        <option value="" selected="selected" hidden="hidden">Tiempo:</option>
+                        {% for ora in lista2 %}
+                                <option value="{{ora}}">{{ora}} </option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div id="registro">
+                    <h2 id="color"> Fecha de cita:</h2>
+                    <input type="date" name="fecha" id = "fecha"
+                    value={{hoy}}
+                    min={{hoy}} max="2023-12-31">
+                </div>
+                        
+                <input id="registro" type="submit" name="enviar" value="Entrar">
+        </form>   
+        
+    </div>
+</div>
+
+        
+{% endblock %}
+{% block footer %}
+
+{% endblock %}

@@ -1,0 +1,4 @@
+usuario,usuario,nombre,correo,password,tipo
+Cliente,Cliente,Cliente,Cliente@gmail.com,$5$rounds=535000$CuEbbnU.BqUr063s$sfO0zq2/v.rD8mfkB/AqEzRy0O1hXpC6kUMI5biiyIA,usuario
+andres,andres,Andres,1,$5$rounds=535000$6WyInsudZmuJZjt5$X8OMI79EnrVOeinDToR9AGcG5v2NF/MXbOvnfhXsMQ0,usuario
+Karla,Karla,Karla,1,$5$rounds=535000$iuc1exAk10pu6.8g$lmz17cj4Uo2QZPIdkfquk2l2u1onh4ZRlI3EBWfsMkC,usuario
